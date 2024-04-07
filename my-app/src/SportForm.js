@@ -21,7 +21,6 @@ function SportForm() {
     // Handle form submission
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here, you'd typically handle the form submission (e.g., sending data to a server)
         console.log(formData);
         alert('Form submitted. Check the console for the form data.');
     };
@@ -36,7 +35,7 @@ function SportForm() {
                         <option value="running">Running</option>
                         <option value="cycling">Cycling</option>
                         <option value="swimming">Swimming</option>
-                        {/* Additional options */}
+
                     </select>
                 </div>
                 <div className="formField">
