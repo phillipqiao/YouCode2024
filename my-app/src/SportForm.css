@@ -1,0 +1,53 @@
+/* SportForm.css */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(180deg, rgb(178, 178, 246) , rgb(228, 226, 226));
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .formField {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input,
+  .select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    border: 1px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, rgb(228, 226, 226), rgb(178, 178, 246) );
+    color: rgb(71, 59, 59);
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-right: 5px;
+  }

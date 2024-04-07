@@ -1,0 +1,12 @@
+{
+  "name": "youcode2024",
+  "version": "1.0.0",
+  "description": "YouCode Hackathon 2024",
+  "main": "index.js",
+  "scripts": {
+    "start": "node your-script.js"
+ },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
